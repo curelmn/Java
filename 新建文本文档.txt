@@ -1,0 +1,51 @@
+use java_code;
+
+create table if not exists goods(
+goods_id int comment `商品编号`,
+goods_name varchar(32) comment `商品名称`,
+unitprice int comment `单价`,
+category varchar(12) comment `商品分类`,
+provider varchar(64) comment `供应商`,
+)；
+
+create table if not exists customer(
+   customer_id int comment `客户编号`,
+   name varchar(32)  comment `客户姓名`,
+address varchar(256) comment `客户地址`,
+email varchar(64) comment `电子邮箱`,
+sex bit comment `性别`,
+card_id varchar(18) comment '身份证',
+);
+
+
+create table if  not exists purchase(
+order_id int comment `订单号`,
+customer_id int comment `客户编号`,
+goods_id  int comment `商品编号`,
+nums  int comment  `购买数量`,
+);
+
+
+create table student(
+id int,
+sn int comment `学号`,
+name varchar(20) comment `姓名`,
+qq_email varchar(20) comment `qq邮箱`
+);
+
+
+insert into student(id,sn,name,qq_email) values
+(1,0101,`cxk`,`12234`),
+(2,0102,`cln`,`12235`),
+(3,0103,`fcc`,`12236`),
+(4,0104,`hmh`,`12237`),
+(5,01015,`lyj`,`12238`);
+
+
+select * from student;
+
+
+
+
+
+
