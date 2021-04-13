@@ -61,3 +61,25 @@ insert into information values(5,'陈七','陕A88888','违规停车');
 
 select user.name ,car.id,information.error from user,car,information where user.id=car.user_id and information.car_id=car.id and user.name='陈七'  group by information.error;
 
+create table emp(name varchar(20),sex varchar(8),depart varchar(20),salary int);
+insert into emp values('张三','男','财务',2000);
+insert into emp values('李四','女','技术',20000);
+insert into emp values('王五','男','开发',8000);
+insert into emp values('赵六','女','销售',7000);
+insert into emp values('陈七','男','开发',20000);
+insert into emp values('小刘','女','财务',3000);
+insert into emp values('张三','男','技术',5000);
+
+
+select AVG(salary) 女生的平均薪资 from emp where sex='女';
+select AVG(salary) 男生的平均薪资 from emp where sex='男';
+
+select sex, AVG(salary) 平均薪资 from emp  group by sex;
+select depart,SUM(salary) 总薪资 from emp group by depart ;
+
+
+select depart,SUM(salary) 总薪资第二 from emp group by depart where SUM(salary)<(select max(SUM(salary)) from emp limit 1) ;
+select depart,sum(salary) from emp group by depart order by sum(salary) desc limit 1,1;
+select * from emp as a where exists(select name from emp group by name having count(*) > 1 and name = a.name);
+
+select depart,avg(salary),sex from emp where salary > 10000 and sex = '男' group by depart;
