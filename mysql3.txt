@@ -1,0 +1,63 @@
+食堂：
+食堂表，食堂仓口表，仓口收费表
+
+create table refectory(id int primary key auto_increment,name varchar(20));
+create table wicket(id int primary key,refectory_id  int);
+create table charge( refectory_id int,wicket_id int, account int);
+
+insert into refectory values(1,'沁园');
+insert into refectory values(2,'馨园');
+insert into refectory values(3,'南园');
+insert into refectory values(4,'竹园');
+
+insert into wicket values(12,1);
+insert into wicket values(15,1);
+insert into wicket values(19,2);
+insert into wicket values(28,3);
+insert into wicket values(9,4);
+
+
+insert into charge values(1,12,2500);
+insert into charge values(1,15,500);
+insert into charge values(2,19,200);
+insert into charge values(4,9,400);
+
+
+select  refectory.name,wicket.id,charge.account from refectory,wicket,charge where refectory.id=wicket.refectory_id and wicket.id=charge.wicket_id  and refectory.name='馨园';
+
+
+车辆违章：
+用户表  车辆表，违章信息表（包含用户和车辆的违章信息）
+
+
+create table user( name varchar(20),id int,car_id varchar(20));
+create  table car(id varchar(20),user_id int);
+create table information(user_id int, user_name varchar(20),car_id varchar(20),error varchar(100));
+
+insert  into user values('张三',1,'陕A0802');
+
+insert  into user values('李四',2,'陕A0111');
+
+insert  into user values('王五',4,'陕A1111');
+
+insert  into user values('赵六',3,'陕7777');
+
+insert  into user values('陈七',5,'陕A88888');
+
+insert into car values('陕A0802',1);
+insert into car values('陕A0111',2);
+insert into car values('陕A1111',4);
+insert into car values('陕7777',3);
+insert into car values('陕A88888',5);
+
+insert into information values(1,'张三','陕A0802','违规停车');
+insert into information values(2,'李四','陕A0111','闯红灯');
+insert into information values(3,'赵六','陕7777','没有礼让行人');
+
+insert into information values(4,'王五','陕A1111','闯红灯 ');
+insert into information values(5,'陈七','陕A88888','没有礼让行人');
+insert into information values(5,'陈七','陕A88888','违规停车');
+
+
+select user.name ,car.id,information.error from user,car,information where user.id=car.user_id and information.car_id=car.id and user.name='陈七'  group by information.error;
+
