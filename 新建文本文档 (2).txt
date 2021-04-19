@@ -1,0 +1,21 @@
+create table student(id int ,name varchar(20),room_floor int,room_id int);
+create table dormitory(floor int,id int);
+create table roomcheckdata(student_id int,student_name varchar(20),room_floor int,room_id int,infor varchar(20));
+
+insert into student values(1,'zhangsan',1,3);
+insert into student values(2,'lisi',1,3);
+insert into student values(3,'wangwu',2,4);
+insert into student values(4,'zhaoliu',5,3);
+insert into student values(5,'chenqi',6,3);
+
+
+insert into dormitory values(1,3);
+insert into dormitory  values(2,4);
+insert into  dormitory  values(5,3);
+insert into   dormitory  values(6,3);
+
+insert into roomcheckdata values(1,'zhangsan',1,3,'在宿舍');
+insert into roomcheckdata values(2,'lisi',1,3,'不在宿舍');
+insert into roomcheckdata values(3,'wangwu',2,4,'在宿舍');
+insert into roomcheckdata values(4,'zhaoliu',5,3,'不在宿舍');
+insert into roomcheckdata values(5,'chenqi',6,3,'在宿舍');
