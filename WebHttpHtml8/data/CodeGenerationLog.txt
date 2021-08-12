@@ -1,0 +1,253 @@
+****** Start Log Message ******
+Web Recorder version : 12.0.2079.0 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.0.2079.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 51 ******
+GET http://localhost:8080/my_oj/problem HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+Accept: */*
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8080/my_oj/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-8296e76f=a505b4b2-8ab0-40ac-8e15-d5593699560b
+
+
+$$$$$$ Request Header For Transaction With Id 51 Ended $$$$$$
+
+****** Response Header For Transaction With Id 51 ******
+HTTP/1.1 200
+Content-Type: application/json;charset=utf-8
+Content-Length: 1378
+Date: Sun, 08 Aug 2021 13:30:09 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 51 Ended $$$$$$
+
+****** Response Body For Transaction With Id 51 ******
+[{"id":2,"title":"两数之和","level":"�\x80�\x95"},{"id":3,"title":"两数之和","level":"�\x80�\x95"},{"id":6,"title":"两数之和","level":"�\x80�\x95"},{"id":7,"title":"两数之和","level":"�\x80�\x95"},{"id":9,"title":"各位相加","level":"�\x80�\x95"},{"id":10,"title":"各位相加","level":"�\x80�\x95"},{"id":11,"title":"各位相加","level":"�\x80�\x95"},{"id":15,"title":"两数之和","level":"�\x80�\x95"},{"id":17,"title":"����֮��7892663921������˰v�Ȱ���ɡ������ɫFbask��","level":"��"},{"id":18,"title":"两数之和按电钮高度是从事破非常的苏北v�\xA6","level":"�\x80�\x95"},{"id":19,"title":"两数之和","level":"�\x80�\x95"},{"id":20,"title":"两数之和","level":"�\x80�\x95"},{"id":21,"title":"两数之和","level":"�\x80�\x95"},{"id":22,"title":"两数之和","level":"�\x80�\x95"},{"id":23,"title":"两数之和","level":"�\x80�\x95"},{"id":24,"title":"两数之和","level":"�\x80�\x95"},{"id":25,"title":"两数之和","level":"�\x80�\x95"},{"id":26,"title":"两数之和","level":"�\x80�\x95"},{"id":27,"title":"两数之和","level":"�\x80�\x95"},{"id":28,"title":"两数之和","level":"�\x80�\x95"},{"id":29,"title":"两数之和","level":"�\x80�\x95"},{"id":30,"title":"两数之和","level":"�\x80�\x95"},{"id":31,"title":"两数之和","level":"�\x80�\x95"},{"id":32,"title":"两数之和","level":"�\x80�\x95"},{"id":33,"title":"两数之和","level":"�\x80�\x95"}]
+$$$$$$ Response Body For Transaction With Id 51 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 51 ****** (Location Flag : tFlagInsertEnd, Location ID : 51)
+	web_url("problem",
+		"URL=http://localhost:8080/my_oj/problem",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=http://localhost:8080/my_oj/",
+		"Snapshot=t4.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 51 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 51)
+	web_add_cookie("Idea-8296e76f=a505b4b2-8ab0-40ac-8e15-d5593699560b; DOMAIN=localhost");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 61 ******
+GET http://localhost:8080/favicon.ico HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8080/my_oj/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-8296e76f=a505b4b2-8ab0-40ac-8e15-d5593699560b
+
+
+$$$$$$ Request Header For Transaction With Id 61 Ended $$$$$$
+
+****** Response Header For Transaction With Id 61 ******
+HTTP/1.1 404
+Content-Type: text/html;charset=utf-8
+Content-Language: zh-CN
+Content-Length: 648
+Date: Sun, 08 Aug 2021 13:30:09 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 61 Ended $$$$$$
+
+****** Response Body For Transaction With Id 61 ******
+<!doctype html><html lang="zh"><head><title>HTTP状态 404 - 未找到</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP状态 404 - 未找到</h1><hr class="line" /><p><b>类型</b> 状态报告</p><p><b>描述</b> 源服务器未能找到目标资源的表示或者是不愿公开一个已经存在的资源表示。</p><hr class="line" /><h3>Apache Tomcat/8.5.57</h3></body></html>
+$$$$$$ Response Body For Transaction With Id 61 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 68 ******
+GET http://localhost:8080/my_oj/problem?id=2 HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+Accept: */*
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8080/my_oj/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-8296e76f=a505b4b2-8ab0-40ac-8e15-d5593699560b
+
+
+$$$$$$ Request Header For Transaction With Id 68 Ended $$$$$$
+
+****** Response Header For Transaction With Id 68 ******
+HTTP/1.1 200
+Content-Type: application/json;charset=utf-8
+Content-Length: 2092
+Date: Sun, 08 Aug 2021 13:30:13 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 68 Ended $$$$$$
+
+****** Response Body For Transaction With Id 68 ******
+{"id":2,"title":"两数之和","level":"�\x80�\x95","description":"给定�\x80个整数数�\x84 nums 和一个整数目标�\x80\xBC target，请你在该数组中找出 和为目标�\xBC 的那 两个 整数，并返回它们的数组下标�\x80�\n\\n你可以假设每种输入只会对应一个答案�\x80�但是，数组中同�\x80个元素在答案里不能重复出现�\x80�\n\\n你可以按任意顺序返回答案。\n\\n \\n\\n示例 1：\n\\n输入：nums \\u003d [2,7,11,15], target \\u003d 9\\n输出：[0,1]\\n解释：因�\xBA nums[0] + nums[1] \\u003d\\u003d 9 ，返�\x9E [0, 1] 。\n示例 2：\n\\n输入：nums \\u003d [3,2,4], target \\u003d 6\\n输出：[1,2]\\n示例 3：\n\\n输入：nums \\u003d [3,3], target \\u003d 6\\n输出：[0,1]\\n \\n\\n提示：\n\\n2 \\u003c\\u003d nums.length \\u003c\\u003d 103\\n-109 \\u003c\\u003d nums[i] \\u003c\\u003d 109\\n-109 \\u003c\\u003d target \\u003c\\u003d 109\\n只会存在�\x80个有效答案\n\\n来源：力扣（LeetCode）\n链接：https://leetcode-cn.com/problems/two-sum\\n著作权归领扣网络�\x80有�\x80�商业转载请联系官方授权，非商业转载请注明出处�\x80\x82","templateCode":"class Solution {\\n    public int[] twoSum(int[] nums, int target) {\\n\\n    }\\n}","testCode":"    public static void main(String[] args) {\\n        Solution solution \\u003d new Solution();\\n        int[] arr \\u003d {2,7,11,15};\\n        int target \\u003d 9;\\n        int[] result \\u003d solution.twoSum(arr, 9);\\n        if (result.length \\u003d\\u003d 2 \\u0026\\u0026 result[0] \\u003d\\u003d 1 \\u0026\\u0026 result[1] \\u003d\\u003d 2) {\\n            System.out.println(\\"TestCase OK!\\");\\n        } else {\\n            System.out.println(\\"TestCase Failed! arr: {2, 7, 11, 15}, target: 9\\");\\n        }\\n\\n        int[] arr2 \\u003d {3,2,4};\\n        int target2 \\u003d 6;\\n        int[] result2 \\u003d solution.twoSum(arr2, target2);\\n        if (result2.length \\u003d\\u003d 2 \\u0026\\u0026 result2[0] \\u003d\\u003d 1 \\u0026\\u0026 result2[1] \\u003d\\u003d 2) {\\n            System.out.println(\\"TestCaseOK!\\");\\n        } else {\\n            System.out.println(\\"TestCaseFailed!\\");\\n        }\\n    }\\n"}
+$$$$$$ Response Body For Transaction With Id 68 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 68 ****** (Location Flag : tFlagInsertEnd, Location ID : 68)
+	web_url("problem_2",
+		"URL=http://localhost:8080/my_oj/problem?id=2",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=http://localhost:8080/my_oj/",
+		"Snapshot=t5.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 68 Ended $$$$$$
+
+****** Request Header For Transaction With Id 72 ******
+POST http://localhost:8080/my_oj/compile HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Content-Length: 339
+sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+Accept: */*
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+Content-Type: application/json; charset=UTF-8
+Origin: http://localhost:8080
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8080/my_oj/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-8296e76f=a505b4b2-8ab0-40ac-8e15-d5593699560b
+
+
+$$$$$$ Request Header For Transaction With Id 72 Ended $$$$$$
+
+****** Request Body For Transaction With Id 72 ******
+{"id":2,"code":"class Solution {\\n    public int[] twoSum(int[] nums, int target) {\\n       for(int i=0;i<nums.length;i++){\\n           for(int j=i+1;j<nums.length;j++){\\n               if(nums[i]+nums[j]==target){\\n                   return new int[] {i,j};\\n               }\\n           }\\n       }\\n       return new int[0];\\n    }\\n}"}
+$$$$$$ Request Body For Transaction With Id 72 Ended $$$$$$
+
+****** Response Header For Transaction With Id 72 ******
+HTTP/1.1 200
+Content-Type: application/json;charset=utf-8
+Content-Length: 89
+Date: Sun, 08 Aug 2021 13:30:20 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 72 Ended $$$$$$
+
+****** Response Body For Transaction With Id 72 ******
+{"errno":0,"stdout":"TestCase Failed! arr: {2, 7, 11, 15}, target: 9\\r\\nTestCaseOK!\\r\\n"}
+$$$$$$ Response Body For Transaction With Id 72 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 72 ****** (Location Flag : tFlagInsertEnd, Location ID : 72)
+	web_custom_request("compile",
+		"URL=http://localhost:8080/my_oj/compile",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=http://localhost:8080/my_oj/",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		"EncType=application/json; charset=UTF-8",
+		"Body={\"id\":2,\"code\":\"class Solution {\\n"
+		"    public int[] twoSum(int[] nums, int target) {\\n"
+		"       for(int i=0;i<nums.length;i++){\\n"
+		"           for(int j=i+1;j<nums.length;j++){\\n"
+		"               if(nums[i]+nums[j]==target){\\n"
+		"                   return new int[] {i,j};\\n"
+		"               }\\n"
+		"           }\\n"
+		"       }\\n"
+		"       return new int[0];\\n"
+		"    }\\n"
+		"}\"}",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 72 Ended $$$$$$
+
