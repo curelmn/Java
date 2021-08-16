@@ -1,0 +1,38 @@
+[API Trapper      (1dc0:3a2c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (36f4:3bd4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( a6c: be4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( a6c:17b0)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( a6c:17b0)] Load Network Traffic Analyzers:
+[Network Analyzer ( a6c:17b0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( a6c:17b0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( a6c:17b0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( a6c:17b0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( a6c:17b0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( a6c:17b0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( a6c:17b0)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( a6c:17b0)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( a6c:3a34)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Network Analyzer ( a6c: 44c)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Network Analyzer ( a6c:17b0)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( a6c:17b0)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( a6c:17b0)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Network Analyzer ( a6c:17b0)] Request Connection: Remote Server @ 203.208.50.66:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( a6c:17b0)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Network Analyzer ( a6c:29e4)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( a6c: 44c)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( a6c: 44c)]   (Sid:  1) Connection Terminated (by Server)
+[Net An. Warning  ( a6c:17b0)] Request Connection: Remote Server @ 172.217.160.77:443 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( a6c:17b0)] Request Connection: Remote Server @ 172.217.160.77:443 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( a6c:17b0)] Request Connection: Remote Server @ 172.217.160.77:443 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    ( a6c:17b0)] Request Connection: Remote Server @ 172.217.160.77:443   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( a6c:17b0)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[API Trapper      (30d0:301c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  ( a6c:17b0)] Request Connection: Remote Server @ 172.217.24.14:443 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  ( a6c:17b0)] Request Connection: Remote Server @ 172.217.24.14:443 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[API Trapper      (32ac:203c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  ( a6c:17b0)] Request Connection: Remote Server @ 172.217.24.14:443 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    ( a6c:17b0)] Request Connection: Remote Server @ 172.217.24.14:443   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( a6c:17b0)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Network Analyzer ( a6c:17b0)] Request Connection: Remote Server @ 172.217.160.74:443   (Service=)  (Sid=  4)  PROXIED!
+[Net An. Error    ( a6c:29e4)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( a6c:17b0)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110

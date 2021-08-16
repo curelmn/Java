@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\ceshi\WebHttpHtml2
+-ID:\Program Files (x86)\HP\LoadRunner\include
+-ee:\ceshi\webhttphtml2\\logfile.log
+e:\ceshi\webhttphtml2\\combined_WebHttpHtml2.c
+e:\ceshi\webhttphtml2\\pre_cci.c

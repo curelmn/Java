@@ -1,0 +1,23 @@
+[API Trapper      ( 584:365c)] Recording in 32-bit mode: D:\Program Files (x86)\HP\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer ( 1b0:2ee8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 1b0:2ee8)] Load Network Traffic Analyzers:
+[Network Analyzer ( 1b0:2ee8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 1b0:2ee8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 1b0:2ee8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 1b0:2ee8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 1b0:2ee8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( 1b0:2ee8)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 1b0:2ee8)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 1b0:2ee8)] ------------------------------------------------------------------------------------------
+[Web Request      ( 1b0:3af8)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer ( 1b0:3af8)]   (Sid:  1) Client -> Server @ : 248 bytes (Service=HTTP)
+[Network Analyzer ( 1b0:3af8)]   (Sid:  1) Server -> Client : 107 bytes 
+[Web Request      ( 1b0:2098)] "CONNECT fonts.gstatic.com:443"   
+[Network Analyzer ( 1b0:2098)]   (Sid:  2) Client -> Server @ : 224 bytes (Service=HTTP)
+[Network Analyzer ( 1b0:2098)]   (Sid:  2) Server -> Client : 107 bytes 
+[Web Request      ( 1b0:3af8)] "CONNECT translate.googleapis.com:443"   
+[Network Analyzer ( 1b0:3af8)]   (Sid:  3) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( 1b0:3af8)]   (Sid:  3) Server -> Client : 107 bytes 
+[Web Request      ( 1b0:2098)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer ( 1b0:2098)]   (Sid:  4) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer ( 1b0:2098)]   (Sid:  4) Server -> Client : 107 bytes 

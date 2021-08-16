@@ -1,0 +1,30 @@
+[API Trapper      ( d40: f04)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (371c:3720)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (366c:  90)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (366c:2704)] ------------------------------------------------------------------------------------------
+[Network Analyzer (366c:2704)] Load Network Traffic Analyzers:
+[Network Analyzer (366c:2704)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (366c:2704)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (366c:2704)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (366c:2704)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (366c:2704)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (366c:2704)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (366c:2704)]     Analyzer Module: local_server (value=)
+[Network Analyzer (366c:2704)] ------------------------------------------------------------------------------------------
+[Network Analyzer (366c:2e64)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.102
+[Network Analyzer (366c:31a0)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.102
+[Network Analyzer (366c:2704)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.102
+[Network Analyzer (366c:2704)] Request Connection: Remote Server @ 203.208.50.66:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (366c:2f2c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (366c:2704)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (366c:2704)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      ( c58:3398)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (366c:2704)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (366c:2704)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (366c:2704)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.102
+[Net An. Warning  (366c:2704)] Request Connection: Remote Server @ 216.58.200.238:443 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  (366c:2704)] Request Connection: Remote Server @ 216.58.200.238:443 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  (366c:2704)] Request Connection: Remote Server @ 216.58.200.238:443 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    (366c:2704)] Request Connection: Remote Server @ 216.58.200.238:443   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer (366c:2704)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.102
+[Net An. Warning  (366c:2704)] Request Connection: Remote Server @ 142.250.66.141:443 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)

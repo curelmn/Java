@@ -1,0 +1,121 @@
+****** Start Log Message ******
+Web Recorder version : 12.0.2079.0 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.0.2079.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 109 ******
+GET http://localhost:8080/my_oj/problem HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+Accept: */*
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8080/my_oj/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-8296e76f=a505b4b2-8ab0-40ac-8e15-d5593699560b
+
+
+$$$$$$ Request Header For Transaction With Id 109 Ended $$$$$$
+
+****** Response Header For Transaction With Id 109 ******
+HTTP/1.1 200
+Content-Type: application/json;charset=utf-8
+Content-Length: 396
+Date: Wed, 04 Aug 2021 12:10:12 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 109 Ended $$$$$$
+
+****** Response Body For Transaction With Id 109 ******
+[{"id":2,"title":"两数之和","level":"�\x80�\x95"},{"id":3,"title":"两数之和","level":"�\x80�\x95"},{"id":6,"title":"两数之和","level":"�\x80�\x95"},{"id":7,"title":"两数之和","level":"�\x80�\x95"},{"id":9,"title":"各位相加","level":"�\x80�\x95"},{"id":10,"title":"各位相加","level":"�\x80�\x95"},{"id":11,"title":"各位相加","level":"�\x80�\x95"},{"id":15,"title":"两数之和","level":"�\x80�\x95"}]
+$$$$$$ Response Body For Transaction With Id 109 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 109 ****** (Location Flag : tFlagInsertEnd, Location ID : 109)
+	web_url("problem",
+		"URL=http://localhost:8080/my_oj/problem",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=http://localhost:8080/my_oj/",
+		"Snapshot=t1.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 109 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 109)
+	web_add_cookie("Idea-8296e76f=a505b4b2-8ab0-40ac-8e15-d5593699560b; DOMAIN=localhost");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 116 ******
+GET http://localhost:8080/favicon.ico HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8080/my_oj/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-8296e76f=a505b4b2-8ab0-40ac-8e15-d5593699560b
+
+
+$$$$$$ Request Header For Transaction With Id 116 Ended $$$$$$
+
+****** Response Header For Transaction With Id 116 ******
+HTTP/1.1 404
+Content-Type: text/html;charset=utf-8
+Content-Language: zh-CN
+Content-Length: 648
+Date: Wed, 04 Aug 2021 12:10:12 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 116 Ended $$$$$$
+
+****** Response Body For Transaction With Id 116 ******
+<!doctype html><html lang="zh"><head><title>HTTP状态 404 - 未找到</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP状态 404 - 未找到</h1><hr class="line" /><p><b>类型</b> 状态报告</p><p><b>描述</b> 源服务器未能找到目标资源的表示或者是不愿公开一个已经存在的资源表示。</p><hr class="line" /><h3>Apache Tomcat/8.5.57</h3></body></html>
+$$$$$$ Response Body For Transaction With Id 116 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+

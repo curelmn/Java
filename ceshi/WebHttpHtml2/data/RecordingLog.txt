@@ -1,0 +1,38 @@
+[API Trapper      ( fcc:2fcc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (14b0: 870)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( fa4:3804)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( fa4: 23c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( fa4: 23c)] Load Network Traffic Analyzers:
+[Network Analyzer ( fa4: 23c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( fa4: 23c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( fa4: 23c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( fa4: 23c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( fa4: 23c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( fa4: 23c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( fa4: 23c)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( fa4: 23c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( fa4:1fa4)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Network Analyzer ( fa4:24fc)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (2a8c:37ec)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( fa4: 23c)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( fa4: 23c)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( fa4: 23c)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Network Analyzer ( fa4: 23c)] Request Connection: Remote Server @ 203.208.50.66:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( fa4: 23c)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Network Analyzer ( fa4:2f3c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 127.0.0.1:8080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 127.0.0.1:8080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 127.0.0.1:8080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( fa4: 23c)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( fa4: 23c)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 127.0.0.1:8080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 127.0.0.1:8080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( fa4: 23c)] Request Connection: Remote Server @ 127.0.0.1:8080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( fa4: 23c)] Request Connection: Remote Server @ 127.0.0.1:8080   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( fa4: 23c)] Address lookup for WIN-B0RMKVKJI3S = 192.168.0.110

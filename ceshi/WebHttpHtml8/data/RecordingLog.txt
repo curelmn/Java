@@ -1,0 +1,43 @@
+[API Trapper      (28a0:3dc8)] Recording in 32-bit mode: D:\Program Files (x86)\HP\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (3ed4:33e8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3ed4:33e8)] Load Network Traffic Analyzers:
+[Network Analyzer (3ed4:33e8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3ed4:33e8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3ed4:33e8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3ed4:33e8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3ed4:33e8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3ed4:33e8)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3ed4:33e8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3ed4:33e8)] ------------------------------------------------------------------------------------------
+[Web Request      (3ed4:3968)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (3ed4:3968)]   (Sid:  1) Client -> Server @ : 248 bytes (Service=HTTP)
+[Network Analyzer (3ed4:3968)]   (Sid:  1) Server -> Client : 107 bytes 
+[Web Request      (3ed4:3968)] "CONNECT fonts.gstatic.com:443"   
+[Network Analyzer (3ed4:3968)]   (Sid:  2) Client -> Server @ : 224 bytes (Service=HTTP)
+[Network Analyzer (3ed4:3968)]   (Sid:  2) Server -> Client : 107 bytes 
+[Web Request      (3ed4:2384)] "GET http://localhost:8080/my_oj/problem"   
+[Network Analyzer (3ed4:2384)]   (Sid:  3) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  3) Server -> Client : 169 bytes  (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  3) Server -> Client : 1378 bytes  (Service=HTTP)
+[Web Request      (3ed4:3968)] "CONNECT translate.googleapis.com:443"   
+[Network Analyzer (3ed4:3968)]   (Sid:  4) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (3ed4:3968)]   (Sid:  4) Server -> Client : 107 bytes 
+[Web Request      (3ed4:127c)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (3ed4:127c)]   (Sid:  5) Client -> Server @ : 252 bytes (Service=HTTP)
+[Network Analyzer (3ed4:127c)]   (Sid:  5) Server -> Client : 107 bytes 
+[Web Request      (3ed4:2384)] "GET http://localhost:8080/favicon.ico"   
+[Network Analyzer (3ed4:2384)]   (Sid:  6) Client -> Server @ : 643 bytes (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  6) Server -> Client : 186 bytes  (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  6) Server -> Client : 648 bytes  (Service=HTTP)
+[Web Request      (3ed4:38dc)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (3ed4:38dc)]   (Sid:  7) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer (3ed4:38dc)]   (Sid:  7) Server -> Client : 107 bytes 
+[Web Request      (3ed4:2384)] "GET http://localhost:8080/my_oj/problem?id=2"   
+[Network Analyzer (3ed4:2384)]   (Sid:  8) Client -> Server @ : 620 bytes (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  8) Server -> Client : 169 bytes  (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  8) Server -> Client : 2092 bytes  (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  9) Client -> Server @ : 715 bytes (Service=HTTP)
+[Web Request      (3ed4:2384)] "POST http://localhost:8080/my_oj/compile"   
+[Network Analyzer (3ed4:2384)]   (Sid:  9) Client -> Server @ : 339 bytes (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  9) Server -> Client : 167 bytes  (Service=HTTP)
+[Network Analyzer (3ed4:2384)]   (Sid:  9) Server -> Client : 89 bytes  (Service=HTTP)

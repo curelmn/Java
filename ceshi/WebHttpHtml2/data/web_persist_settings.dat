@@ -1,0 +1,13 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2021/08/01 02:52:28
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2021/08/01 02:54:26
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2021/08/01 02:57:15
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2021/08/01 03:00:08
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2021/08/01 03:05:04
+StartRecordingIsDst_5=0
+[Security]
+UsingPersistForAuthentication=1
